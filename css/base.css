@@ -74,6 +74,10 @@ ul{
     background-color: #ccc;
     margin: 10px 10px 0;
 }
+.dropdown{
+    padding-right: 15px;
+    
+}
 /* 导航end */
 /* 字体 */
 @font-face {
