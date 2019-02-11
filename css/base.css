@@ -111,3 +111,31 @@ ul{
     font-weight: normal;
     font-style: normal;
   }
+  /* header */
+.header .inner{
+    height: 140px;
+    background-color: pink;
+    position: relative;
+  }
+.logo{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    top:-30px;
+    left:0;
+    background-color: #fff;
+  }
+.logo a{
+    display: block;
+    width: 190px;
+    height: 170px;
+    background: url(../images/logo.png) no-repeat;
+    /* 首行缩进 */
+    text-indent: -999px;
+    overflow: hidden;
+}
+.logo h1{
+    margin: 0;
+    padding: 0;
+}
+  /* header end */
