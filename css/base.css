@@ -124,7 +124,6 @@ input,button{
   /* header */
 .header .inner{
     height: 140px;
-    background-color: pink;
     position: relative;
   }
 .logo{
@@ -247,5 +246,29 @@ input,button{
     right: 0;
     bottom: 10px;
 }
-
+.navitems{
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+.navitems ul{
+    float: left;
+}
+.navitems ul li{
+    float: left;
+    margin-left: 30px;
+}
+.navitems li a{
+  font-size: 16px;
+  color:#555a5f;
+  font-weight: 700;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+}
+.navitems .spacer{
+    float: left;
+     /* 上右下左 */
+    margin: 15px -10px 0 20px;
+}
   /* header end */
