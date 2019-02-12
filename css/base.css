@@ -3,6 +3,10 @@
     width: 1190px;  /* 京东的版心是 1190 */  
     margin: 0 auto;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 .fr{
     float: right;
 }
@@ -335,5 +339,44 @@ input,button{
 }
 .service-unit .sheng{
     background-position:0 -128px;
+}
+.help{
+    height: 180px;
+    padding-top: 20px;
+}
+.help dl{
+    float: left;
+    width:195px;
+}
+.help dt{
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+}
+.help dd{
+    height: 22px;
+}
+.help dd a{
+    color: #727272;
+    font-size: 12px;
+}
+.help dd a:hover{
+    color: #f10215;
+}
+.help .cover{
+    float: right;
+    width: 207px;
+    height: 150px;
+    background-color: #112233;
+    background:url(../images/ico_footer.png) no-repeat;
+}
+.cover dt{
+    text-align: center;
+}
+.info{
+    width:175px;
+    height: 50px;
+    font-size: 12px;
 }
 /* footer end */
