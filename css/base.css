@@ -323,7 +323,7 @@ input,button{
     top: 0;
     left: 0;
     background: url(../images/ico.png) no-repeat;
-    text-indent: -999px;
+    text-indent: -1999px;
 }
 .service-unit p{
     line-height:42px;
