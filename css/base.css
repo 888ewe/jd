@@ -210,7 +210,10 @@ input,button{
 .search em:hover{
     background-position:-30px 0 ;
 }
-
+img{
+    /* 去除图片底部的多余空隙 */
+     vertical-align: top;
+}
 
 /* 热词 */
 .hotwords{
