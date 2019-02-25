@@ -1,11 +1,11 @@
  .jd{
      height: 480px;
-     background-color: pink;
+     /* background-color: pink; */
      position: relative;
  }
  .jd-inner{
     height: 480px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     position: relative;
     z-index: 1;
  }
@@ -50,14 +50,14 @@
  .jd-clo2{
     width: 790px;
     height: 480px;
-    background-color: purple;
+    /* background-color: purple; */
     float: left;
     margin-left: 10px;
  }
  .jd-clo2-hd{
     height: 340px;
     margin-bottom: 10px;
-    background-color: black;
+    /* background-color: black; */
     position: relative;
  }
  .jd-clo2-bd div{
@@ -114,6 +114,64 @@
  .jd-clo3{
     width: 190px;
     height: 480px;
-    background-color: palegreen;
+    /* background-color: palegreen; */
     float: right;
  }
+ .user{
+    height: 115px;
+    /* background-color: #f10215; */
+    padding: 20px 15px 0;
+ }
+ .user_info{
+    height: 40px;
+    padding-left: 54px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #747474;
+    position: relative;
+ }
+
+ .user_info a{
+    font-size: 12px;
+    color: #747474;
+   
+ }
+ .info_img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:0;
+    left: 0;
+ }
+ .info_img img{
+    width: 100%;
+    height: auto;
+ }
+.user_profit{
+   margin-top: 14px;
+}
+
+ .user_profit a{
+   width: 70px;
+   height: 20px;
+   border: 2px solid #f10215;
+   display: inline-block;
+   color: #f10215;
+   text-align: center;
+   line-height: 20px;
+   margin-right: 3px;
+ }
+ .user_profit a:hover{
+   background-color: #f10215;
+   color: #fff;
+ }
+ .news{
+   height: 154px;
+   background-color: blue;
+   border-top: 1px solid #ccc;
+   border-bottom: 1px solid #ccc;
+}
+.jd_server{
+   height: 209px;
+   background-color: yellow;
+}
