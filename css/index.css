@@ -117,8 +117,12 @@
     /* background-color: palegreen; */
     float: right;
  }
+ .jd-clo3 a{
+   font-size: 12px;
+   color: #747474;
+ }
  .user{
-    height: 115px;
+    height: 95px;
     /* background-color: #f10215; */
     padding: 20px 15px 0;
  }
@@ -166,12 +170,70 @@
    color: #fff;
  }
  .news{
-   height: 154px;
-   background-color: blue;
+   height: 149px;
    border-top: 1px solid #ccc;
    border-bottom: 1px solid #ccc;
+   padding: 5px 15px 0;
 }
+.tab-hd{
+   border-bottom: 1px solid #ccc;
+   padding: 3px 0;
+   position: relative;
+}
+.tab-hd a{
+  margin: 0 4px;
+}
+.cuxiao{
+   border-right: 1px solid #ccc;
+   padding-right: 10px;
+}
+.more1{
+   position:absolute;
+   right: 0;
+   top: 6px;
+}
+.line{
+   width: 28px;
+   height: 2px;
+   background-color: #f10215;
+   position: absolute;
+   bottom: -1px;
+   left: 3px;
+}
+.tab-bd{
+   margin-top: 10px;
+}
+.tab-bd li{
+   height: 23px;
+  line-height: 23px;
+ }
 .jd_server{
    height: 209px;
-   background-color: yellow;
+   overflow: hidden;
+   width: 190px;
+}
+.jd_server ul{
+   width: 195px;
+}
+.jd_server li{
+   width: 47px;
+   height: 69px;
+   border-bottom: 1px solid #ccc;
+   border-right: 1px solid #ccc;
+   float: left;
+}
+.jd_server li a{
+   width: 100%;
+   height:100%;
+   display: block;
+}
+.jd_server i{
+   width: 24px;
+   height: 24px;
+   margin: 15px auto 8px;
+   display: block;
+   background: url(../images/sprite_fs@1x.png) no-repeat;
+}
+.jd_server p{
+   text-align: center
 }
